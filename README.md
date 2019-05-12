@@ -1,11 +1,11 @@
 1. Start the server by navigating to server folder
 
-    Dependencies: Node.js, Yarn/npm.
+    Dependencies: Node.js(tested with nodev9.11.1, other versions were having issues), Yarn/npm.
 
-    `yarn install` (if not run npm install)
+    `yarn install`
 
     ## Running
-    `yarn start` (if not run npm install)
+    `yarn start`
 
     The API is available at http://localhost:8081.
 
@@ -13,9 +13,9 @@
 
     Dependencies: Node.js, Yarn/npm.
 
-    `yarn install` (if not run npm install)
+    `yarn install`
 
     ## Running
-    `yarn start` (if not run npm install)
+    `yarn start`
 
     The Application is running at http://localhost:3000.
