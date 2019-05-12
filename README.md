@@ -1,6 +1,6 @@
 1. Start the server by navigating to server folder
 
-    Dependencies: Node.js(tested with nodev9.11.1, other versions were having issues), Yarn/npm.
+    Dependencies: Node.js(tested with node version 8 and 9, version 10 was still having issues), Yarn/npm.
 
     `yarn install`
 
