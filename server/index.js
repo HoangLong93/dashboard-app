@@ -14,7 +14,7 @@ const knex = require('knex')({
 app.use(cors())
 app.use(bodyParser.json());
 
-// Create link to Angular build directory
+// Create link to build directory
 const distDir = "../client/build";
 app.use(express.static(distDir));
 
