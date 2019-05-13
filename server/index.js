@@ -69,3 +69,6 @@ app.get('/buildVer', (req, res) => {
 
 // console.log('App listening on http://localhost:8081')
 // app.listen(8081)
+app.listen((process.env.PORT || 8081), function(){
+  console.log('listening on *:8081');
+});
