@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../node_modules/react-vis/dist/style.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Dashboard from './dashboard/Dashboard';
 import Header from './Header';
