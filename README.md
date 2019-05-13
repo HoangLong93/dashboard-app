@@ -4,10 +4,6 @@
 
     - run `yarn install`
 
-    - navigating to client folder
-
-    - run `yarn install` inside client folder
-
 ## Running
 
     - navigate to root directory
@@ -22,9 +18,11 @@
 
     - run `yarn start`
 
-    - navigate to client folder
+    - open new terminal and navigate to client folder
 
-    - run `yarn start`
+    - run `yarn install` inside client folder
+
+    - run `yarn start` inside client folder
 
     The Application is running in dev mode at http://localhost:3000.
 
