@@ -1,6 +1,7 @@
 const http = require('http')
 const bodyParser = require('body-parser')
-const app = require('express')()
+const express = require('express');
+const app = express();
 const cors = require('cors')
 const knex = require('knex')({
   client: 'sqlite3',
@@ -12,6 +13,10 @@ const knex = require('knex')({
 
 app.use(cors())
 app.use(bodyParser.json());
+
+// Create link to Angular build directory
+const distDir = "../client/build";
+app.use(express.static(distDir));
 
 app.get('/', (req, res) => {
   res.send('Hello world! Try the /app route for a list of appIDs.')
